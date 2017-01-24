@@ -213,17 +213,9 @@
 
                 <!-- Sidebar Menu -->
                 <ul class="sidebar-menu">
-                    <li class="header">HEADER</li>
+                    <li class="header">Backend</li>
                     <!-- Optionally, you can add icons to the links -->
-                    <li class="active"><a href="#"><span>Link</span></a></li>
-                    <li><a href="#"><span>Another Link</span></a></li>
-                    <li class="treeview">
-                        <a href="#"><span>Multilevel</span> <i class="fa fa-angle-left pull-right"></i></a>
-                        <ul class="treeview-menu">
-                            <li><a href="#">Link in level 2</a></li>
-                            <li><a href="#">Link in level 2</a></li>
-                        </ul>
-                    </li>
+                    <li class="active"><a href="#"><span>Accueil</span></a></li>
                 </ul><!-- /.sidebar-menu -->
             </section>
             <!-- /.sidebar -->
@@ -234,12 +226,12 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
-                    Page Header
-                    <small>Optional description</small>
+                    Backend
+                    <small>Parametrage du site</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-                    <li class="active">Here</li>
+                    <li><a href="#"><i class="fa fa-dashboard"></i> Backend</a></li>
+                    <li class="active">Accueil</li>
                 </ol>
             </section>
 
@@ -247,6 +239,7 @@
             <section class="content">
 
                 <!-- Your Page Content Here -->
+                @yield('content')
 
             </section><!-- /.content -->
         </div><!-- /.content-wrapper -->

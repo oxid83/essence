@@ -14,8 +14,9 @@ class CreateObjetsTable extends Migration
     {
         Schema::create('objets', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nom');
-            $table->float('prix', 1, 2);
+            $table->string('type');
+            $table->string('magasin');
+            $table->float('prix', 2);
             $table->timestamps();
         });
     }

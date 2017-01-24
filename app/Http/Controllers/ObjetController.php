@@ -16,6 +16,7 @@ class ObjetController extends Controller
     public function index()
     {
         //
+        return view('objets');
     }
 
     /**
